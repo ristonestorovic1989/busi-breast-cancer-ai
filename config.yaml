@@ -4,8 +4,11 @@ dataset:
   clean_dir: "data/clean"
   classes: ["benign", "malignant", "normal"]
 
-train:
+  train:
   img_size: 224
   batch_size: 16
   val_split: 0.2
   seed: 42
+  epochs_phase1: 12
+  epochs_phase2: 25
+  fine_tune_last_n: 80
