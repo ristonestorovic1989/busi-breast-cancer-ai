@@ -1,0 +1,10 @@
+tensorflow>=2.13
+numpy
+matplotlib
+seaborn
+scikit-learn
+pillow
+kaggle
+gradio
+pyyaml
+tqdm

@@ -1,0 +1,11 @@
+dataset:
+  kaggle_slug: "aryashah2k/breast-ultrasound-images-dataset"
+  raw_dir: "data/raw"
+  clean_dir: "data/clean"
+  classes: ["benign", "malignant", "normal"]
+
+train:
+  img_size: 224
+  batch_size: 16
+  val_split: 0.2
+  seed: 42
